@@ -19,6 +19,7 @@ pub fn scope_example() {
 }
 
 fn define_x() -> String {
+    main();
     let x = String::from("hello");
     return x
 }
