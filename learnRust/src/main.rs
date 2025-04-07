@@ -1,6 +1,9 @@
+mod scope;
+
 // 1. 🌟 A variable can be used only if it has been initialized.
 // Fix the error below with least amount of modification to the code
 fn main() {
+    scope::scope_example();
     let x: i32 = 5;
     let _y: i32; // Uninitialized but also unused, only a Warning !
 
